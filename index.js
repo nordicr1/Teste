@@ -7,9 +7,9 @@ let pontos = 0 // pontos para o placar
 let placar = 0 // placar
 
 // AUDIO
-let somAcerto   = document.querySelector('#somAcerto')
-let somErro     = document.querySelector('#somErro')
-let somAplausos = document.querySelector('#somAplausos')
+//let somAcerto   = document.querySelector('#somAcerto')
+//let somErro     = document.querySelector('#somErro')
+//let somAplausos = document.querySelector('#somAplausos')
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
@@ -223,14 +223,14 @@ function verificarSeAcertou(nQuestao, resposta) {
         //console.log("Acertou")
         //respostaEsta.textContent = "Correta 😊"
         piscarNoAcerto()
-        somAcerto.play()
+        //somAcerto.play()
         pontos += 10 // pontos = pontos + 10
         if(nQuestao.value == 1 && pontos == 20) { pontos = 10 }
     } else {
         //console.log("Errou!")
         //respostaEsta.textContent = "Errada 😢"
         piscarNoErro()
-        somErro.play()
+        //somErro.play()
     }
     setTimeout(() => {
         tirarPiscar()
@@ -259,7 +259,7 @@ function verificarSeAcertou(nQuestao, resposta) {
 
 function fimDoJogo() {
 
-    somAplausos.play()
+    //somAplausos.play()
 
     let s = 's'
     pontos == 0 ? s = '' : s = s
