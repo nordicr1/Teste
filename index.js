@@ -134,9 +134,90 @@ const q11 = {
     alternativaD : "せんしゅう",
     correta      : "みる",
 }
+const q12 = {
+    numQuestao   : 12,
+    pergunta     : "Qual significado de: 南",
+    alternativaA : "にし",
+    alternativaB : "なか",
+    alternativaC : "みなみ",
+    alternativaD : "わかい",
+    correta      : "みなみ",
+}
+const q13 = {
+    numQuestao   : 13,
+    pergunta     : "Qual significado de: 西",
+    alternativaA : "らいねん",
+    alternativaB : "にし",
+    alternativaC : "よむ",
+    alternativaD : "にもつ",
+    correta      : "にし",
+}
+const q14 = {
+    numQuestao   : 14,
+    pergunta     : "Qual significado de: 校",
+    alternativaA : "ろうか",
+    alternativaB : "コ-ウ",
+    alternativaC : "レコード",
+    alternativaD : "コウ",
+    correta      : "コウ",
+}
+const q15 = {
+    numQuestao   : 15,
+    pergunta     : "Qual significado de: 北",
+    alternativaA : "きた",
+    alternativaB : "なのか",
+    alternativaC : "どなた",
+    alternativaD : "では",
+    correta      : "きた",
+}
+const q16 = {
+    numQuestao   : 16,
+    pergunta     : "Qual significado de: 話",
+    alternativaA : "つける",
+    alternativaB : "はなし",
+    alternativaC : "ちず",
+    alternativaD : "だんだん",
+    correta      : "はなし",
+}
+const q17 = {
+    numQuestao   : 17,
+    pergunta     : "Qual significado de: 来",
+    alternativaA : "たまご",
+    alternativaB : "すわる",
+    alternativaC : "くる, ライ",
+    alternativaD : "すくない",
+    correta      : "くる, ライ",
+}
+const q18 = {
+    numQuestao   : 18,
+    pergunta     : "Qual significado de: 外",
+    alternativaA : "しょくどう",
+    alternativaB : "そと",
+    alternativaC : "さとう",
+    alternativaD : "さんぽする",
+    correta      : "そと",
+}
+const q19 = {
+    numQuestao   : 19,
+    pergunta     : "Qual significado de: 高",
+    alternativaA : "きらい",
+    alternativaB : "おす",
+    alternativaC : "おかし",
+    alternativaD : "たかい",
+    correta      : "たかい",
+}
+const q20 = {
+    numQuestao   : 20,
+    pergunta     : "Qual significado de: 東",
+    alternativaA : "ひがし",
+    alternativaB : "ぎゅうにく",
+    alternativaC : "きいろ",
+    alternativaD : "からい",
+    correta      : "ひがし",
+}
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
-const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11]
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
