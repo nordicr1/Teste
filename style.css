@@ -21,9 +21,10 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: #ececec;
+    background: #000000;
     color: #191919;
     overflow-x: hidden;
+    
 }
 
 main {
@@ -33,7 +34,6 @@ main {
 
 section {
     width: 100vw;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,14 +44,14 @@ h1 {
     text-align: center;
     font-size: 1.75rem;
     margin: 0.5rem 0 0 0;
+    color: white;
 }
 
-/* classe para centralizar textos, paragrafos */
 .centro {
     text-align: center;
+    
 }
 
-/* div class questao com numero da questao e pergunta */
 .questao {
     display: flex;
     align-items: center;
@@ -80,7 +80,6 @@ h1 {
     align-items: center;
 }
 
-/* article que acomoda a questao completa */
 .questoes {
     user-select: none;
     background: rgb(255, 255, 255);
@@ -114,7 +113,7 @@ h1 {
 
 #instrucoes {
     font-size: 1rem;
-    color: #191919;
+    color: #ffffff;
     padding: 0.625rem;
     border-radius: 8px;
 
@@ -129,9 +128,8 @@ h1 {
 #autoria {
     margin-top: 0.625rem;
     font-size: 0.75rem;
+    color: white;
 }
-
-/* ANIMACAO */
 
 /* Animar o input */
 @keyframes piscar {
@@ -184,12 +182,3 @@ h1 {
 }
 
 
-
-/*
-no html
-
-<audio preload src="assets/positive.mp3" id='somAcerto'></audio>
-<audio preload src="assets/negative.mp3" id='somErro'></audio>
-<audio preload src="assets/aplausos.mp3" id='somAplausos'></audio>
-
-*/
