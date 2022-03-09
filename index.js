@@ -1,4 +1,4 @@
-/* Aula 20 MaiaQuiz  */
+
 let titulo     = document.querySelector('h1')
 let instrucoes = document.querySelector('#instrucoes')
 let aviso      = document.querySelector('#aviso')
